@@ -3,6 +3,5 @@ Carlos|Carlos123|4000
 Daniel|Daniel123|5000
 Diego|Diego123|150000
 Felipe|Felipe123|23423
-ghy|123|1500
 
-abc|123|111111
+aaa|123|444

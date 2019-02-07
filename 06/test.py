@@ -52,6 +52,7 @@ def read_ifo():
     with open('usrifo.txt', 'r') as f_ifo:
         for line in f_ifo:
             l = line.split('|')
+            print(dict_info)
             dict_info[l[0]] = l[1]
     return dict_info
 def read_salary():
