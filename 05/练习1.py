@@ -14,35 +14,3 @@ sys.argv.append(tar)
 with open(sys.argv[1], 'rb') as fori, open(sys.argv[2], 'wb') as ftar:
     data=fori.read()
     ftar.write(data)
-'''
-    for line in fori:
-        ftar.write(line)
-'''
-'''
-    if len(sys.argv)!=3:
-        print('Input error!')
-        flag=input('continue? Y/N ')
-        if flag=='Y':
-            continue
-        else:
-            break
-    elif len(sys.argv)==3:
-
-    sys.exit()
-'''
-'''
-import sys
-
-
-source_address = input('请输入被拷贝文件源地址: ').strip()
-target_address = input('请输入拷贝文件目标地址: ').strip()
-sys.argv.append(source_address)
-sys.argv.append(target_address)
-
-
-#source_file,target_file=sys.argv[1],sys.argv[2]
-
-with open(sys.argv[1],'rb') as read_f,open(sys.argv[2],'wb') as write_f:
-    for line in read_f:
-        write_f.write(line)
-'''

@@ -1,3 +1,9 @@
+'''
+要求：
+    打印三级菜单如：省，市，县，可以自由发挥
+    可返回上一级
+    可随时退出程序
+'''
 def menu_cre(name,menu):
     for i, j in menu.items():
         if i == name:
