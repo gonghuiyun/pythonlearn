@@ -36,14 +36,14 @@ def register():
     if password1==password2:
         salary = input('set your salary: ')
         with open('usrifo.txt','a') as f_usrifo:
-            f_usrifo.write('\n')
             f_usrifo.write(name_login)
             f_usrifo.write('|')
             f_usrifo.write(password1)
             f_usrifo.write('|')
             f_usrifo.write(salary)
+            f_usrifo.write('\n')
     else:
-        print('two password don \\\'t consistent!')
+        print('two password dont consistent!')
         sys.exit()
 #read usr information file
 def read_ifo():
@@ -52,9 +52,9 @@ def read_ifo():
     with open('usrifo.txt', 'r') as f_ifo:
         for line in f_ifo:
             l = line.split('|')
-            print(dict_info)
             dict_info[l[0]] = l[1]
     return dict_info
+
 def read_salary():
     l = []
     dict_info = {}
@@ -91,7 +91,6 @@ goods = {'1': ['iPhone', 5000],
              '2': ['mac book', 10000],
              '3': ['bike', 300],
              }
-
 while(Tag):
     buy_list = buy_l()
     pay = 0
