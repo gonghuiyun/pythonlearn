@@ -1,0 +1,15 @@
+'''
+有列表data=['albert',18,[2000,1,1]]，
+分别取出列表中的名字，年龄，出生的年，月，日赋值给不同的变量
+'''
+data=['albert',18,[2000,1,1]]
+name=data[0]
+age=data[1]
+year=data[2][0]
+month=data[2][1]
+day=data[2][2]
+print(name)
+print(age)
+print(year)
+print(month)
+print(day)
