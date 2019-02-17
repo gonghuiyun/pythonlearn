@@ -8,4 +8,6 @@ def file_name(file_dir):
         print(root)
         print(files)
 
+file_name(name_direc)
+
 
