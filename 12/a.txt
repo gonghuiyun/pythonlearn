@@ -1,0 +1,4 @@
+albert male 18 3000
+james male 38 30000
+林志玲 female 28 20000
+新垣结衣 female 28 10000
