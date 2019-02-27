@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b9588d5-66d8-491c-9bd0-e2a69244ce07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/15/15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15/15.py" beforeDir="false" afterPath="$PROJECT_DIR$/15/15.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/15/15.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            <state relative-caret-position="174">
+              <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -307,7 +306,7 @@
       <workItem from="1550592314469" duration="16451000" />
       <workItem from="1550712278645" duration="654000" />
       <workItem from="1550759685661" duration="19938000" />
-      <workItem from="1551160828410" duration="17337000" />
+      <workItem from="1551160828410" duration="17421000" />
     </task>
     <task id="LOCAL-00001" summary="02">
       <created>1549545197529</created>
@@ -334,7 +333,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109382000" />
+    <option name="totallyTimeSpent" value="109466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -705,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/15/15.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="174">
+          <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>

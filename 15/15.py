@@ -4,17 +4,17 @@ count属性是统计他所在的类产生了多少个对象，
 即print(obj.count)能打印出对象的个数
 '''
 
-# class any:
-#     count=0
-#     def __init__(self):
-#         any.count=any.count+1
-#
-#
-# obj1=any()
-# obj2=any()
-# obj3=any()
-# obj4=any()
-# print(any.count)
+class any:
+    count=0
+    def __init__(self):
+        any.count=any.count+1
+
+
+obj1=any()
+obj2=any()
+obj3=any()
+obj4=any()
+print(any.count)
 
 '''
 实现一个人狗大战的程序，人可以咬狗，
