@@ -7,32 +7,27 @@
 class CarMeta(type):
     # 创建类
     def __init__(self, class_name, class_bases, class_dic):
-        if not class_dic.get('production_date'):
-            raise TypeError('production_date ')
-
-        if not class_dic.get('engine_number'):
-            raise TypeError('engine_number')
-
-        if not class_dic.get('capacity'):
-            raise TypeError('capacity')
-
+        pass
         super(CarMeta, self).__init__(class_name, class_bases, class_dic)
 
     def __call__(self, *args, **kwargs):
         obj = object.__new__(self)
         self.__init__(obj, *args, **kwargs)
+
+        if not hasattr(obj,"production_date"):
+            raise TypeError('production_date')
+        if not hasattr(obj,"engine_number"):
+            raise TypeError('engine_number')
+        if not hasattr(obj,"capacity"):
+            raise TypeError('capacity')
         return obj
 
 
 class Car1(object, metaclass=CarMeta):
 
-    def __init__(self):
-        pass
+    def __init__(self,production_date,engine_number,capacity):
+        # self.production_date = production_date
+        self.engine_number = engine_number
+        self.capacity = capacity
 
-    def production_date(self):
-        pass
-
-    def engine_number(self):
-        pass
-
-obj = Car1()
+obj = Car1(1,2,3)
