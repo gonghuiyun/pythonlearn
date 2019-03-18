@@ -26,7 +26,7 @@ class CarMeta(type):
 class Car1(object, metaclass=CarMeta):
 
     def __init__(self,production_date,engine_number,capacity):
-        # self.production_date = production_date
+        self.production_date = production_date
         self.engine_number = engine_number
         self.capacity = capacity
 

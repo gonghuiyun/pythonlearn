@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b9588d5-66d8-491c-9bd0-e2a69244ce07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/18/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/17/Meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/17/Meta.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +17,8 @@
     <SUITE FILE_PATH="coverage/pythonlearn$start.coverage" NAME="start Coverage Results" MODIFIED="1550852978879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13/bin" />
     <SUITE FILE_PATH="coverage/pythonlearn$16_1.coverage" NAME="16_1 Coverage Results" MODIFIED="1551348063415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16" />
     <SUITE FILE_PATH="coverage/pythonlearn$16.coverage" NAME="16 Coverage Results" MODIFIED="1551409096784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16" />
-    <SUITE FILE_PATH="coverage/pythonlearn$test.coverage" NAME="test Coverage Results" MODIFIED="1551413858936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16" />
-    <SUITE FILE_PATH="coverage/pythonlearn$Meta.coverage" NAME="Meta Coverage Results" MODIFIED="1551517644851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17" />
+    <SUITE FILE_PATH="coverage/pythonlearn$test.coverage" NAME="test Coverage Results" MODIFIED="1551847823386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18" />
+    <SUITE FILE_PATH="coverage/pythonlearn$Meta.coverage" NAME="Meta Coverage Results" MODIFIED="1551517745251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17" />
     <SUITE FILE_PATH="coverage/pythonlearn$sql.coverage" NAME="sql Coverage Results" MODIFIED="1551505398409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17" />
     <SUITE FILE_PATH="coverage/pythonlearn$15.coverage" NAME="15 Coverage Results" MODIFIED="1551257595643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15" />
     <SUITE FILE_PATH="coverage/pythonlearn$src.coverage" NAME="src Coverage Results" MODIFIED="1550852850450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13/core" />
@@ -32,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/17/Meta.py">
+        <entry file="file://$PROJECT_DIR$/18/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state>
+              <caret selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -67,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/09/c.txt" />
         <option value="$PROJECT_DIR$/09/09_02.py" />
         <option value="$PROJECT_DIR$/09/test.py" />
         <option value="$PROJECT_DIR$/10/a.txt" />
@@ -118,12 +119,14 @@
         <option value="$PROJECT_DIR$/17/single3.py" />
         <option value="$PROJECT_DIR$/17/single4.py" />
         <option value="$PROJECT_DIR$/17/Meta.py" />
+        <option value="$PROJECT_DIR$/18/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1145" />
     <option name="y" value="-4" />
-    <option name="width" value="1920" />
+    <option name="width" value="1855" />
     <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -134,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,23 +148,17 @@
             <path>
               <item name="pythonlearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonlearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="17" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../下载/E-mall" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Baimian-camp" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -193,29 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Meta">
-    <configuration name="17" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonlearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17/17.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="Meta" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonlearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,13 +280,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonlearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Meta" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.single1" />
         <item itemvalue="Python.sql" />
-        <item itemvalue="Python.17" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +328,9 @@
       <workItem from="1550759685661" duration="19938000" />
       <workItem from="1551160828410" duration="19339000" />
       <workItem from="1551310448541" duration="17809000" />
-      <workItem from="1551397442946" duration="39133000" />
+      <workItem from="1551397442946" duration="39940000" />
+      <workItem from="1551789556024" duration="8344000" />
+      <workItem from="1551847053845" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="02">
       <created>1549545197529</created>
@@ -357,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168326000" />
+    <option name="totallyTimeSpent" value="179869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,15 +369,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="1145" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15163255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09795241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3378661" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2792887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39853558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,13 +466,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="022" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11/shopping.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -623,14 +615,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13/log/access.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="203">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="203">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -659,16 +651,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/16/settings.py" />
-    <entry file="file://$PROJECT_DIR$/16/16.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/16/16.py" />
+    <entry file="file://$PROJECT_DIR$/16/test.py" />
     <entry file="file://$PROJECT_DIR$/16/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -696,12 +680,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17/MySQL.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/17/17.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/17/MySQL.py" />
+    <entry file="file://$PROJECT_DIR$/17/17.py" />
     <entry file="file://$PROJECT_DIR$/17/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -730,9 +710,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/17/test.py" />
     <entry file="file://$PROJECT_DIR$/17/single1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -766,8 +744,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/17/Meta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="112">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
